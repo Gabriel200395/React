@@ -75,6 +75,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .page-container-todo-list .page-grid-todo-list {
@@ -85,6 +86,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .page-container-todo-list .page-grid-todo-list .page-grid-todo-list-text {
@@ -120,6 +122,6 @@
   outline: none;
 }
 
-/* #21212D 
-  #5A5B66
- */
+.finished-task {
+  text-decoration: line-through;
+}
