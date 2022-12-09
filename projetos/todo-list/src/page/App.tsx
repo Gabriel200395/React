@@ -1,8 +1,8 @@
 import { ChangeEvent, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import "./styles.css";
 import Form from "../components/FormTodo";
 import ContainerTodo from "../components/ContainerTodo";
+import Header from "../components/Header";
 
 type propsTodo = {
   id: string;
@@ -43,12 +43,8 @@ function App() {
     setTodo(todo.filter((todoItem) => todoItem.id !== id));
 
   return (
-    <div className="page-container">  
-      <div className="header-grid-page">
-        <div className="header-grid-title">
-          <h2>Minhas Tarefas</h2>
-        </div>
-      </div>
+    <div className="page-container">
+      <Header />
       <Form
         todoField={todoField}
         handleAddTodo={handleAddTodo}
