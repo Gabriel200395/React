@@ -1,6 +1,8 @@
 import { ChangeEvent, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import "./styles.css";
+import Form from "../components/FormTodo";
+import ContainerTodo from "../components/ContainerTodo";
 
 type propsTodo = {
   id: string;
@@ -41,47 +43,23 @@ function App() {
     setTodo(todo.filter((todoItem) => todoItem.id !== id));
 
   return (
-    <div className="page-container">
+    <div className="page-container">  
       <div className="header-grid-page">
         <div className="header-grid-title">
           <h2>Minhas Tarefas</h2>
         </div>
       </div>
+      <Form
+        todoField={todoField}
+        handleAddTodo={handleAddTodo}
+        handleChange={handleChange}
+      />
 
-      <div className="page-container-input">
-        <div className="page-grid-input">
-          <input
-            type="text"
-            placeholder="Adicionar  Uma Tarefa"
-            value={todoField}
-            onChange={handleChange}
-          />
-          <button disabled={todoField ? false : true} onClick={handleAddTodo}>
-            +
-          </button>
-        </div>
-      </div>
-
-      <div className="page-container-todo-list">
-        {todo.map((todoItem) => {
-          return (
-            <div className="page-grid-todo-list" key={todoItem.id}>
-              <div className="page-grid-todo-list-text">
-                <input
-                  type="checkbox"
-                  onChange={(e) => handleCheck(e, todoItem.id)}
-                />
-                <p className={`${todoItem.done && "finished-task"}`}>
-                  {todoItem.title}
-                </p>
-              </div>
-              <button onClick={() => handleRemoveTodo(todoItem.id)}>
-                <i className="fa fa-trash" aria-hidden="true" />
-              </button>
-            </div>
-          );
-        })}
-      </div>
+      <ContainerTodo
+        todo={todo}
+        handleCheck={handleCheck}
+        handleRemoveTodo={handleRemoveTodo}
+      />
     </div>
   );
 }

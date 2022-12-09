@@ -1,0 +1,50 @@
+.page-container-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.page-container-input .page-grid-input {
+  position: relative;
+  border: solid 1px #5a5b66;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 900px;
+  height: 45px;
+}
+.page-container-input .page-grid-input input {
+  position: relative;
+  width: 855px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: #21212d;
+  border-radius: 5px;
+  padding-left: 44px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.page-container-input .page-grid-input input::placeholder {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 3px;
+}
+
+.page-container-input .page-grid-input button {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 46px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  color: #5a5b66;
+  cursor: pointer;
+  top: 1px;
+}
