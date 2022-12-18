@@ -33,22 +33,22 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:300
 
 ## :heart_eyes: Features
 
-<h3 align="left">Tela inicial.</h3>
+<h3 align="left">Tela inicial 😍.</h3>
 <h4 align="left">
   <img src="./public/tela_inicial_todo.png" /><br>
 </h4>
 
-<h3 align="left">Tela de todo.</h3>
+<h3 align="left">Tela de todo 😍.</h3>
 <h4 align="left">
   <img src="./public/todo_items.png" /><br>
 </h4>
 
-<h3 align="left">Todo salvo no localStorage.</h3>
+<h3 align="left">Todo salvo no localStorage 😎.</h3>
 <h4 align="left">
   <img src="./public/todo_storage.png" /><br>
 </h4>
 
-<h3 align="left">Todo exluido no localStorage.</h3>
+<h3 align="left">Todo exluido no localStorage 😎.</h3>
 <h4 align="left">
   <img src="./public/todo_remove_storage.png" /><br>
 </h4>
