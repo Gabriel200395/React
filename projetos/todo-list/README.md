@@ -40,17 +40,17 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:300
   <img src="./public/todo_items.png" /><br>
 </h4>
 
-<h3 align="left">Tela de todo storage.</h3>
+<h3 align="left">Todo salvo no localStorage.</h3>
 <h4 align="left">
   <img src="./public/todo_storage.png" /><br>
 </h4>
 
-<h3 align="left">Tela de todo remove storage.</h3>
+<h3 align="left">Todo exluido no localStorage.</h3>
 <h4 align="left">
   <img src="./public/todo_remove_storage.png" /><br>
 </h4>
 
-<h3 align="left">Applicação de todo responsivo ❤.</h3>
+<h3 align="left">Aplicação de todo responsivo ❤.</h3>
 <h4 align="left">
   <img src="./public/todo_remove_storage.png" /><br>
 </h4>
