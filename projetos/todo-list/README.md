@@ -16,7 +16,10 @@
 
 - [React](https://pt-br.reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
-- [React Testing Lybrary](https://testing-library.com/docs/react-testing-library/intro/)
+- [React Testing Lybrary](https://testing-library.com/docs/react-testing-library/intro/)  
+- [Css-Flexbox](https://www.devmedia.com.br/css3-flexbox-funcionamento-e-propriedades/29532) 
+
+
 
 ## 💻 Como usar
 
