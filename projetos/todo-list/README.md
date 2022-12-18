@@ -32,7 +32,7 @@ No projeto tentei utilizar boas práticas de desenvolvimento, como separação d
 - Clone o projeto: `git clone https://github.com/Gabriel200395/reactJS_small_projects.git`
 - Entrar na pasta do projeto: `cd projetos/todo-list`
 - Iniciar a aplicação: `yarn start`
-- baixe na aplicação: `yarn` 
+- baixe na aplicação: `yarn`
 - testa aplicação: `yarn test`
 
 Irá abrir uma página no browser (se não abrir, vá até [http://localhost:8080](http://localhost:8080/)).
@@ -41,22 +41,22 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">Tela Inicial</h3>
 <h4 align="center">
-  <img src="/public/tela_inicial_todo.png" /><br>
+  <img src="./public/tela_inicial_todo.png" /><br>
 </h4>
 
 <h3 align="center">Tela de Todo</h3>
 <h4 align="center">
-  <img src="/public/todo_items.png" /><br>
+  <img src="./public/todo_items.png" /><br>
 </h4>
 
 <h3 align="center">Tela de Todo storage</h3>
 <h4 align="center">
-  <img src="/public/todo_storage.png" /><br>
+  <img src="./public/todo_storage.png" /><br>
 </h4>
 
 <h3 align="center">Tela de Todo remove storage</h3>
 <h4 align="center">
-  <img src="/public/todo_remove_storage.png" /><br>
+  <img src="./public/todo_remove_storage.png" /><br>
 </h4>
 ## :pencil: Autor
 
