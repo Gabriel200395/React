@@ -6,8 +6,9 @@
   }
   
   .page-container-todo-list .page-grid-todo-list {
-    width: 905px;
-    height: 45px;
+    width: 100%; 
+    max-width: 900px;
+    height: 51px;
     background-color: #21212d;
     border-radius: 5px;
     display: flex;

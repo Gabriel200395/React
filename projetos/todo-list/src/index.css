@@ -10,3 +10,9 @@ body {
 .finished-task {
   text-decoration: line-through;
 }
+ 
+
+.page-container {
+  padding-left: 20px; 
+  padding-right: 20px;
+}

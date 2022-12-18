@@ -1,5 +1,5 @@
 import { ChangeEvent } from "react";
-import "./styles.css"
+import "./styles.css";
 
 interface FormProps {
   todoField: string;
@@ -21,9 +21,9 @@ export default function FormTodo({
           value={todoField}
           onChange={handleChangeTodo}
         />
-        <button disabled={todoField ? false : true} onClick={handleAddTodo}>
-          +
-        </button>
+          <button disabled={todoField ? false : true} onClick={handleAddTodo}>
+            +
+          </button>
       </div>
     </div>
   );

@@ -11,21 +11,23 @@
   margin-bottom: 30px;
   width: 100%;
   max-width: 900px;
-  height: 45px;
+  height: 51px;
+  display: flex;
+  justify-content: flex-end;
 }
 .page-container-input .page-grid-input input {
   position: relative;
-  width: 855px;
+  width: 95%;
   height: 100%;
   outline: none;
   border: none;
   background-color: #21212d;
-  border-radius: 5px;
-  padding-left: 44px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  padding-left: 44px;
+  border-radius: 5px;
 }
 
 .page-container-input .page-grid-input input::placeholder {
@@ -38,13 +40,24 @@
   position: absolute;
   left: 0px;
   right: 0px;
-  width: 46px;
-  height: 100%;
-  background-color: transparent;
+  width: 5%;
+  background-color: #21212d;
   border: none;
   outline: none;
   font-size: 40px;
   color: #5a5b66;
   cursor: pointer;
   top: 1px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .page-container-input .page-grid-input input {
+    width: 90%;
+  }
+  .page-container-input .page-grid-input button {
+    width: 10%;
+  }
 }
