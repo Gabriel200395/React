@@ -39,34 +39,34 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 ## :heart_eyes: Features
 
-<h3 align="left">Tela Inicial</h3>
+<h3 align="left">Tela inicial.</h3>
 <h4 align="left">
   <img src="./public/tela_inicial_todo.png" /><br>
 </h4>
 
-<h3 align="left">Tela de Todo</h3>
+<h3 align="left">Tela de todo.</h3>
 <h4 align="left">
   <img src="./public/todo_items.png" /><br>
 </h4>
 
-<h3 align="left">Tela de Todo storage</h3>
+<h3 align="left">Tela de todo storage.</h3>
 <h4 align="left">
   <img src="./public/todo_storage.png" /><br>
 </h4>
 
-<h3 align="left">Tela de Todo remove storage</h3>
+<h3 align="left">Tela de todo remove storage.</h3>
 <h4 align="left">
   <img src="./public/todo_remove_storage.png" /><br>
 </h4>
 
-<h3 align="left">Applicação de todo responsivo ❤</h3>
+<h3 align="left">Applicação de todo responsivo ❤.</h3>
 <h4 align="left">
   <img src="./public/todo_remove_storage.png" /><br>
 </h4>
 
-<h3 align="left">Testando Aplicação ❤</h3> 
+<h3 align="left">Testando aplicação ❤.</h3> 
 <h4 align="left">
-  <img src="./public/todo_remove_storage.png" /><br>
+  <img src="./public/todo_teste.png" /><br>
 </h4>
 ## :pencil: Autor
 
