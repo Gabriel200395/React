@@ -26,13 +26,17 @@ export default function ContainerTodo({
             <div className="page-grid-todo-list-text">
               <input
                 type="checkbox"
+                defaultChecked={todoItem.done}
                 onChange={(e) => handleCheck(e, todoItem.id)}
               />
               <p className={`${todoItem.done && "finished-task"}`}>
                 {todoItem.title}
               </p>
             </div>
-            <button onClick={() => handleRemoveTodo(todoItem.id)}>
+            <button
+              onClick={() => handleRemoveTodo(todoItem.id)}
+              data-testid="button-remove"
+            >
               <i className="fa fa-trash" aria-hidden="true" />
             </button>
           </div>

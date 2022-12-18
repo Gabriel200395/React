@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Form from "../components/FormTodo";
 import ContainerTodo from "../components/ContainerTodo";
@@ -11,11 +11,7 @@ type propsTodo = {
 };
 
 function App() {
-  const [todo, setTodo] = useState<propsTodo[]>([
-    { id: uuidv4(), title: "Ir na Padaria", done: false },
-    { id: uuidv4(), title: "Ir no Mercado", done: false },
-  ]);
-
+  const [todo, setTodo] = useState<propsTodo[]>([]);
   const [todoField, setTodoField] = useState("");
 
   function handleCheck(e: ChangeEvent<HTMLInputElement>, id: string) {
@@ -39,8 +35,30 @@ function App() {
     setTodoField("");
   }
 
-  const handleRemoveTodo = (id: string) =>
-    setTodo(todo.filter((todoItem) => todoItem.id !== id));
+  const handleRemoveTodo = (id: string) => {
+    let removeTodo = todo.filter((todoItem) => todoItem.id !== id);
+    localStorage.setItem("todo", JSON.parse(JSON.stringify(removeTodo)));
+    setTodo(removeTodo);
+  };
+
+  function saveTodoStorage() {
+    if (todo.length) {
+      localStorage.setItem("todo", JSON.stringify(todo));
+    }
+  }
+
+  function SearhTodoSaveStorage() {
+    if (localStorage.getItem("todo")) {
+      setTodo(JSON.parse(localStorage.getItem("todo") as string));
+    }
+  }
+  useEffect(() => {
+    saveTodoStorage();
+  }, [todo]);
+
+  useEffect(() => {
+    SearhTodoSaveStorage();
+  }, [localStorage.getItem("todo")]);
 
   return (
     <div className="page-container">
