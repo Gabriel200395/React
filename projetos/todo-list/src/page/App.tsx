@@ -27,7 +27,7 @@ function App() {
     );
   }
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) =>
+  const handleChangeTodo = (e: ChangeEvent<HTMLInputElement>) =>
     setTodoField(e.target.value);
 
   function handleAddTodo() {
@@ -66,7 +66,7 @@ function App() {
       <Form
         todoField={todoField}
         handleAddTodo={handleAddTodo}
-        handleChange={handleChange}
+        handleChangeTodo={handleChangeTodo}
       />
 
       <ContainerTodo

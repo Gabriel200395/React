@@ -3,13 +3,13 @@ import "./styles.css"
 
 interface FormProps {
   todoField: string;
-  handleChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  handleChangeTodo: (e: ChangeEvent<HTMLInputElement>) => void;
   handleAddTodo: () => void;
 }
 
 export default function FormTodo({
   todoField,
-  handleChange,
+  handleChangeTodo,
   handleAddTodo,
 }: FormProps) {
   return (
@@ -19,7 +19,7 @@ export default function FormTodo({
           type="text"
           placeholder="Adicionar  Uma Tarefa"
           value={todoField}
-          onChange={handleChange}
+          onChange={handleChangeTodo}
         />
         <button disabled={todoField ? false : true} onClick={handleAddTodo}>
           +
