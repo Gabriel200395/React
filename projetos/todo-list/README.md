@@ -21,7 +21,7 @@
 
 ## :page_facing_up: Sobre
 
-"Projeto que desenvolvi com o objetivo de melhorar minhas habilidades e conhecimentos tanto em ReactJS quanto em programação Web em geral. O projeto é baseado em um todo-list, nele você consegue visualizar as atividades adicionadas e removê-las.
+Projeto que desenvolvi com o objetivo de melhorar minhas habilidades e conhecimentos tanto em ReactJS quanto em programação Web em geral. O projeto é baseado em um todo-list, nele você consegue visualizar as atividades adicionadas e removê-las.
 
 No projeto tentei utilizar boas práticas de desenvolvimento, como separação de componentes, para assim facilitar a reutilização em múltiplos arquivos e testes funcionais.
 
